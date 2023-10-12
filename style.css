@@ -1,0 +1,27 @@
+  @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Roboto:wght@300;400;700&display=swap');
+
+ .body{
+    background-color: rgb(171, 24, 24);
+    font-family: 'Pixelify Sans', sans-serif;
+ } 
+
+ .input{
+   height: 50px;
+   width: 100px;
+ }
+ hr{
+  position: relative;
+  top: 50px;
+  margin-top: 20px;
+ }
+.old{
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  font-size: 50px;
+  right: center;
+  background-color: white;
+}
+.foot{
+  margin-top: 150px;
+}
