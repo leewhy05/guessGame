@@ -40,7 +40,7 @@ function randomNumber(e){
     lastNumber(numberTrail)
     guessed.textContent = `You guessed ${userGuess.value} which is higher than comp guess ${compGuess}`
 }else if(Number(userGuess.value)<compGuess){
-    body.style.backgroundColor = 'yellow'
+    body.style.backgroundColor = 'orange'
     numberChange.textContent = `${compGuess}`
     lastNumber(numberTrail)
     guessed.textContent = `You guessed ${userGuess.value} which is lesser than comp guess ${compGuess}`
